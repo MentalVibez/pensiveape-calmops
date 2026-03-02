@@ -23,10 +23,12 @@ export default async function DashboardPage() {
       </div>
 
       <div className="mt-6 grid gap-4 md:grid-cols-2">
-        <ModuleCard title="Incident Reset Protocol" desc="3–5 minute guided reset before/after high-pressure work." />
-        <ModuleCard title="Post-Incident Debrief" desc="Generate structured debrief notes and action items." />
-        <ModuleCard title="Shift Handoff Builder" desc="Create concise handoff notes for async continuity." />
-        <ModuleCard title="Burnout Risk Check-in" desc="Weekly signal check with practical recommendations." />
+        <a href="/app/reset" className="block">
+          <ModuleCard title="Incident Reset Protocol" desc="3–5 minute guided reset before/after high-pressure work." />
+        </a>
+        <ModuleCard title="Post-Incident Debrief" desc="Generate structured debrief notes and action items. (Coming soon)" />
+        <ModuleCard title="Shift Handoff Builder" desc="Create concise handoff notes for async continuity. (Coming soon)" />
+        <ModuleCard title="Burnout Risk Check-in" desc="Weekly signal check with practical recommendations. (Coming soon)" />
       </div>
     </main>
   )
